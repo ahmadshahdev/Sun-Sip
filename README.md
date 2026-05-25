@@ -7,22 +7,30 @@ Sunsip is a modern, single-page React application built for a premium cold-press
 ## ✨ Key Features
 
 * **The AI "Flavor Matchmaker":** A flagship feature powered by the Google Gemini API. Users input their current mood, wellness goals, and dietary dislikes into a glassmorphic UI. The app communicates with the LLM to return a highly personalized, JSON-formatted juice recommendation.
+
 * **Complex Cart & Variant Logic:** Built-in React Context state management that dynamically handles pricing and shipping weight logic between "Single Bottle" and bulk "Box of 12" variants for international fulfillment.
+
 * **Editorial UI/UX System:** * Deep abyssal dark mode for a premium "tech-focused" aesthetic.
   * Extensive use of Tailwind's `backdrop-blur` for frosted glass navigation and off-canvas menus.
   * Fluid micro-interactions and route transitions powered by Framer Motion.
+
 * **Distraction-Free Checkout:** A streamlined 2-step checkout flow designed to maximize conversion rates by isolating the user from global navigation.
 
 ## 🛠 Tech Stack
 
 * **Core Framework:** React.js bootstrapped with [Vite](https://vitejs.dev/) for blazing-fast HMR.
+
 * **Styling:** [Tailwind CSS](https://tailwindcss.com/) (Custom configured for brand colors and glassmorphism utilities).
+
 * **Animations:** [Framer Motion](https://www.framer.com/motion/)
+
 * **AI Integration:** `@google/genai` (Utilizing the Gemini 2.5 Flash model).
+
 * **State Management:** React Context API.
 
 ## 📂 Project Structure
 
+```text
 sunsip/
 ├── public/               # Static assets (logo, favicons)
 ├── src/
@@ -35,15 +43,16 @@ sunsip/
 ├── .env.local            # Environment variables (Ignored by Git)
 ├── tailwind.config.js    # Custom brand theme configuration
 └── package.json
+```
 
 
-### Installation
+## Installation
 
 Clone the repository:
 
 * **Bash**
-git clone [https://github.com/yourusername/sunsip.git](https://github.com/yourusername/sunsip.git)
-cd sunsip
+git clone [https://github.com/ahmadshahdev/Sun-Sip.git](https://github.com/ahmadshahdev/Sun-Sip.git)
+cd Sun-Sip
 
 * **Bash**
 npm install
