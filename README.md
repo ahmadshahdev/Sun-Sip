@@ -1,16 +1,65 @@
-# React + Vite
+# 🍊 Sunsip | Premium E-Commerce Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sunsip is a modern, single-page React application built for a premium cold-pressed juice brand. It combines an editorial, high-contrast minimalist aesthetic with interactive e-commerce functionality and a unique AI-powered product recommendation engine.
 
-Currently, two official plugins are available:
+![Sunsip Vibe](https://via.placeholder.com/1200x600?text=Sunsip+Modern+Juice+UI) *(Note: Replace with an actual screenshot of your hero section!)*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Key Features
 
-## React Compiler
+* **The AI "Flavor Matchmaker":** A flagship feature powered by the Google Gemini API. Users input their current mood, wellness goals, and dietary dislikes into a glassmorphic UI. The app communicates with the LLM to return a highly personalized, JSON-formatted juice recommendation.
+* **Complex Cart & Variant Logic:** Built-in React Context state management that dynamically handles pricing and shipping weight logic between "Single Bottle" and bulk "Box of 12" variants for international fulfillment.
+* **Editorial UI/UX System:** * Deep abyssal dark mode for a premium "tech-focused" aesthetic.
+  * Extensive use of Tailwind's `backdrop-blur` for frosted glass navigation and off-canvas menus.
+  * Fluid micro-interactions and route transitions powered by Framer Motion.
+* **Distraction-Free Checkout:** A streamlined 2-step checkout flow designed to maximize conversion rates by isolating the user from global navigation.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Tech Stack
 
-## Expanding the ESLint configuration
+* **Core Framework:** React.js bootstrapped with [Vite](https://vitejs.dev/) for blazing-fast HMR.
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/) (Custom configured for brand colors and glassmorphism utilities).
+* **Animations:** [Framer Motion](https://www.framer.com/motion/)
+* **AI Integration:** `@google/genai` (Utilizing the Gemini 2.5 Flash model).
+* **State Management:** React Context API.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+```text
+sunsip/
+├── public/               # Static assets (logo, favicons)
+├── src/
+│   ├── components/       # Reusable UI blocks (Navbar, CartDrawer, Hero)
+│   ├── context/          # Global state (CartContext.jsx)
+│   ├── data/             # Mock database (products.js)
+│   ├── services/         # API integrations (gemini.js)
+│   ├── App.jsx           # Main layout and routing
+│   └── main.jsx          # React DOM entry point
+├── .env.local            # Environment variables (Ignored by Git)
+├── tailwind.config.js    # Custom brand theme configuration
+└── package.json
+
+
+### Installation
+
+Clone the repository:
+
+* **Bash**
+git clone [https://github.com/yourusername/sunsip.git](https://github.com/yourusername/sunsip.git)
+cd sunsip
+
+* **Bash**
+npm install
+
+* **Configure Environment Variables:**
+Create a .env.local file in the root directory. Add your Gemini API key:
+
+* **Code snippet**
+VITE_GEMINI_API_KEY=your_actual_api_key_here
+(Note: This application includes a fallback mock-data function. If the API key is missing or the rate limit is hit, the UI will still function seamlessly.)
+
+Start the development server:
+
+* **Bash**
+npm run dev
+
+<h1 align="center"> Developed By</h1>
+<h2 align="center">Syed Ahmad Shah.</h2>
