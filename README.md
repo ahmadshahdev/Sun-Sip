@@ -2,7 +2,7 @@
 
 Sunsip is a modern, single-page React application built for a premium cold-pressed juice brand. It combines an editorial, high-contrast minimalist aesthetic with interactive e-commerce functionality and a unique AI-powered product recommendation engine.
 
-![Sunsip Logo](/public/logo.svg)
+![Sunsip Logo](/public/Logo.svg)
 
 ## ✨ Key Features
 
