@@ -4,8 +4,6 @@ import { products } from '../data/products';
 export default function ProductGrid() {
   return (
     <section id="products" className="py-24 px-6 md:px-12 max-w-7xl mx-auto relative">
-      {/* Decorative vertical background divider line */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-px h-full bg-linear-to-b from-white/5 via-white/10 to-transparent pointer-events-none" />
 
       {/* Header section with clean design */}
       <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 relative z-10">
