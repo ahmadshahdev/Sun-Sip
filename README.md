@@ -2,7 +2,7 @@
 
 Sunsip is a modern, single-page React application built for a premium cold-pressed juice brand. It combines an editorial, high-contrast minimalist aesthetic with interactive e-commerce functionality and a unique AI-powered product recommendation engine.
 
-![Sunsip Vibe](https://via.placeholder.com/1200x600?text=Sunsip+Modern+Juice+UI) *(Note: Replace with an actual screenshot of your hero section!)*
+![Sunsip Logo](/public/logo.svg)
 
 ## ✨ Key Features
 
@@ -23,7 +23,6 @@ Sunsip is a modern, single-page React application built for a premium cold-press
 
 ## 📂 Project Structure
 
-```text
 sunsip/
 ├── public/               # Static assets (logo, favicons)
 ├── src/
@@ -61,5 +60,7 @@ Start the development server:
 * **Bash**
 npm run dev
 
+
+## 👨‍💻 Developer
 <h1 align="center"> Developed By</h1>
 <h2 align="center">Syed Ahmad Shah.</h2>
