@@ -1,3 +1,7 @@
+## Live Link:
+- [sun-sip-gray.vercel.app](https://sun-sip-gray.vercel.app)
+
+
 # 🍊 Sunsip | Premium E-Commerce Frontend
 
 Sunsip is a modern, single-page React application built for a premium cold-pressed juice brand. It combines an editorial, high-contrast minimalist aesthetic with interactive e-commerce functionality and a unique AI-powered product recommendation engine.
